@@ -1,0 +1,19 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "sass": "sass resources/scss/main.scss:resources/css/style.css",
+        "sass:watch": "sass resources/scss/main.scss:resources/css/style.css --watch",
+        "sass:no-map": "sass resources/scss/main.scss:resources/css/style.css --style=compressed --no-source-map"
+    },
+    "devDependencies": {
+        "axios": "1.18.0",
+        "concurrently": "^10.0.3",
+        "laravel-vite-plugin": "^3.1.0",
+        "vite-plugin-static-copy": "^4.1.1",
+        "vite": "^8.1.5"
+    }
+}

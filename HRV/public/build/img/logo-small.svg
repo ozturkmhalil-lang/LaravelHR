@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 319" width="301" height="319">
+  <!-- Arka Plan: Sol üst ve sağ alt köşesi kıvrımlı/kesik mavi ikon gövdesi -->
+  <path d="M 60 0 
+           L 301 0 
+           A 0 0 0 0 1 301 0 
+           L 301 259 
+           A 60 60 0 0 1 241 319 
+           L 0 319 
+           A 0 0 0 0 1 0 319 
+           L 0 60 
+           A 60 60 0 0 1 60 0 Z" 
+        fill="#1d4ed8" />
+  
+  <!-- Ses Dalgaları (Beyaz Dikey Çubuklar) -->
+  <g fill="#ffffff">
+    <!-- 1. Çubuk -->
+    <rect x="70" y="110" width="22" height="99" rx="11" />
+    <!-- 2. Çubuk -->
+    <rect x="112" y="85" width="22" height="149" rx="11" />
+    <!-- 3. Çubuk -->
+    <rect x="154" y="120" width="22" height="79" rx="11" />
+    <!-- 4. Çubuk -->
+    <rect x="196" y="80" width="22" height="159" rx="11" />
+  </g>
+</svg>
